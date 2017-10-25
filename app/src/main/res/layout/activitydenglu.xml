@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.jinritoutiao.com.example.lenovo.jinritoutiao.activity.Main3Activity">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="5dp"
+
+       >
+       <ImageView
+           android:id="@+id/image_back"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginLeft="2dp"
+           android:layout_centerVertical="true"
+           android:src="@drawable/btn_back_detail_normal"
+           />
+       <TextView
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="你的头条"
+           android:textSize="22dp"
+           />
+   </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+
+        android:layout_height="1dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:src="@drawable/f_01" />
+
+    <TextView
+        android:id="@+id/tv_phoned"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="@color/smssdk_white"
+        android:background="#f00"
+        android:layout_gravity="center_horizontal"
+        android:text="手机登录"/>
+    <TextView
+        android:id="@+id/t_zc"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/smssdk_white"
+        android:background="#f00"
+        android:layout_gravity="center_horizontal"
+        android:text="手机注册"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+
+        android:layout_gravity="center_horizontal"
+        android:text="— 其他方式登录 —"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="80dp"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:id="@+id/t_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/f_04"/>
+        <ImageView
+            android:id="@+id/t_xlwb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/f_05"/>
+        <ImageView
+            android:id="@+id/t_txwb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:src="@drawable/f_06"/>
+        <ImageView
+            android:id="@+id/t_rr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/f_07"
+           />
+    </LinearLayout>
+</LinearLayout>
